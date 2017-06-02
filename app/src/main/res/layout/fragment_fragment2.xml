@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="com.example.rxbro.fragmenthw.Fragment2">
+
+    <!-- TODO: Update blank fragment layout -->
+    <Button
+        android:id="@+id/frag2_hi_btn"
+
+        android:text="Say Hi"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/frag2_bye_btn"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Say Bye" />
+    <TextView
+        android:id="@+id/frag2_result_tv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+         />
+
+
+
+</LinearLayout>
